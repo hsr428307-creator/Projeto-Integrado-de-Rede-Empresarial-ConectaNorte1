@@ -17,7 +17,7 @@ projeto de rede empresarial ConectaNorte.
 
 ## 2. Pré-requisitos
 
-- Linux com Docker instalado;
+- Docker instalado;
 - Docker Compose disponível como `docker compose`;
 - acesso ao terminal;
 - navegador ou `curl`.
@@ -237,13 +237,7 @@ Adicionar na pasta `evidencias/` capturas legíveis mostrando:
 6. recuperação automática e aumento do `RestartCount`;
 7. limite de CPU/memória, quando comprovado no ambiente.
 
-## 15. Projeto de Redes
-
-A pasta `packet-tracer/` contém o arquivo `.pkt` do projeto ConectaNorte.
-A documentação original descreve uma arquitetura com VLANs 10, 20, 30, 40,
-50 e VLAN 99 de gerenciamento, utilizando VLSM e Router-on-a-Stick.
-
-## 16. Referências
+## 15. Referências
 
 - Material e slides da disciplina de Redes de Computadores, Faculdade Serra Dourada, 2026.
 - RFC 1918 — Address Allocation for Private Internets.
