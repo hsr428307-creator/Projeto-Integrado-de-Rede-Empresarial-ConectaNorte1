@@ -1,0 +1,15 @@
+services:
+  conectanorte:
+    build: .
+    container_name: conectanorte
+    ports:
+      - "${PORT:-3000}:3000"
+    environment:
+      PORT: "3000"
+      LOG_LEVEL: "${LOG_LEVEL:-info}"
+      FAIL_MODE: "${FAIL_MODE:-false}"
+    restart: on-failure
+    mem_limit: 128m
+    cpus: "0.50"
+    security_opt:
+      - no-new-privileges:true

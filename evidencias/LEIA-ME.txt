@@ -1,0 +1,1 @@
+Coloque aqui as capturas reais da execução do Docker. Os nomes sugeridos estão no README.md.

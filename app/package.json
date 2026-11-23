@@ -1,0 +1,9 @@
+{
+  "name": "conectanorte-servico",
+  "version": "1.0.0",
+  "description": "Serviço HTTP em container Docker para o Trabalho 4 - ConectaNorte",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  }
+}
